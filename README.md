@@ -8,11 +8,3 @@ Links:
 <a class="pending" href="https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/1" >Merge arrays Without Extra Space </a>
 
 # Leet
-
-
-<style>
-.pending {
-  color: red;
-}
-
-</style>
