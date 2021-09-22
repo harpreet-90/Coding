@@ -1,10 +1,12 @@
 import java.util.Arrays;
 
-class Node 
+class HeadNode 
 {
-	int val;
-	Node left;
-	Node right;
+	public HeadNode(int i) {
+    }
+    int val;
+	HeadNode left;
+	HeadNode right;
 }
 
 class Heap
