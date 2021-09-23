@@ -8,4 +8,12 @@ public class PrintList {
         }
         System.out.println("null");
     }
+    public void print(NodeWithchild head){
+        while(head!=null){
+            String prev = "" + ((head.prev!=null)?head.prev.data:"null");
+            System.out.print("(n="+ head.data + "prev="+ prev + ")->");
+            head = head.next;
+        }
+        System.out.println("null");
+    }
 }
