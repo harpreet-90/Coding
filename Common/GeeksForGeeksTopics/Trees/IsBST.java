@@ -1,8 +1,11 @@
 package Trees;
 
 import java.util.ArrayList;
-
+// Another way to solve : use Inorder travaersal and save the values in array.
+// If array is sorted. It is corect BST else not.
 public class IsBST {
+    //Time complexity: O(N)
+    // extra Space: O(1) or O(3)exact;
     boolean isBST(TreeNode root){
         ArrayList<Integer> arr = IsBSTInternalFunc(root);
         return (arr.get(2)==1)? true: false;
