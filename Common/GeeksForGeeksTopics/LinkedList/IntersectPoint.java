@@ -15,7 +15,7 @@ public class IntersectPoint {
             diff = len2 - len1;
         }
 
-        for(int i=1; i<diff && head1!=null; i++){
+        for(int i=1; i<=diff && head1!=null; i++){
             head1 = head1.next;
         }
 
