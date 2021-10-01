@@ -2,7 +2,6 @@ import java.util.*;
 
 public class LexicographicallySmallestString {
     String findLexicographicallySmallestString(String str, ArrayList<ArrayList<Integer>> swapPairs){
-        String currStr = str;
         Iterator<ArrayList<Integer>> iter = swapPairs.iterator();
         boolean isSwaped = true; 
         while(isSwaped){
