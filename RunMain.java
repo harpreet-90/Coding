@@ -1,3 +1,7 @@
+import javax.swing.tree.TreeNode;
+
+import Trees.CheckBalancedTree;
+
 public class RunMain
 {
 
@@ -6,8 +10,8 @@ public class RunMain
         // int[][] grid ={{2,1,1},{0,1,1},{1,0,1}};
         // int[][] grid = {{0,0,0},{1,1,0},{1,1,0}};
         // int[][] grid = {{0,1},{1,0}};
-        int[][] grid = {{0,1,1,1,1,1,1,1},{0,1,1,0,0,0,0,0},{0,1,0,1,1,1,1,0},{0,1,0,1,1,1,1,0},{0,1,1,0,0,1,1,0},{0,1,1,1,1,0,1,0},{0,0,0,0,0,1,1,0},{1,1,1,1,1,1,1,0}};
-        ShortestPathInBinaryMatrix ro = new ShortestPathInBinaryMatrix();
-        System.out.println(ro.shortestPathBinaryMatrix(grid));
+        // int[][] grid = {{0,1,1,1,1,1,1,1},{0,1,1,0,0,0,0,0},{0,1,0,1,1,1,1,0},{0,1,0,1,1,1,1,0},{0,1,1,0,0,1,1,0},{0,1,1,1,1,0,1,0},{0,0,0,0,0,1,1,0},{1,1,1,1,1,1,1,0}};
+        // ShortestPathInBinaryMatrix ro = new ShortestPathInBinaryMatrix();
+        // System.out.println(ro.shortestPathBinaryMatrix(grid));
     }
 }

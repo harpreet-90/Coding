@@ -1,10 +1,10 @@
 package Trees;
 
 public class TreeNode {
-    int data;
-    TreeNode left, right;
+    public int data;
+    public TreeNode left, right;
 
-    TreeNode(int item)
+    public TreeNode(int item)
     {
         data = item;
         left = right = null;
