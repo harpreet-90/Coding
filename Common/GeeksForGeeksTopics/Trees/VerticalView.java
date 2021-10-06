@@ -1,11 +1,10 @@
 package Trees;
 
 import java.util.*;
-import java.util.Map.Entry;
 
 public class VerticalView {
     public static TreeMap<Integer,TreeMap<Integer,ArrayList<Integer>>> map = new TreeMap<>();
-    public static ArrayList <Integer> verticalOrder(Node root)
+    public static ArrayList <Integer> verticalOrder(TreeNode root)
     {
         map = new TreeMap<>();
         traverse(root,0,0);
@@ -18,7 +17,7 @@ public class VerticalView {
             
         return arr;
     }
-    private void traverse(Node root, int level,int height ){
+    private static void traverse(TreeNode root, int level,int height ){
         if(root==null) return;
         if(map.containsKey(level)){
            if(map.get(level).containsKey(height)){

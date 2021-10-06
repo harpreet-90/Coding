@@ -12,4 +12,8 @@ public class TreeNode {
         data = item;
         left = right = null;
     }
+
+    public void print(){
+        System.out.print(this.data + " ");
+    }
 }

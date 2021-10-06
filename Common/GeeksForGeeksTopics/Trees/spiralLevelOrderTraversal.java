@@ -25,7 +25,7 @@ public class spiralLevelOrderTraversal {
             if(node==null){
                 if(PushInStack){
                     arr.addAll(returnArrayFromStack(s));
-                    s = new Stack();
+                    //s = new Stack();
                     PushInStack = false;
                 }
                 else{
