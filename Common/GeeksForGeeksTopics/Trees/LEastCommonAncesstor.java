@@ -2,10 +2,10 @@ package Trees;
 
 import java.util.*;
 
-public class LEastCommonAncesstor {
-
+public class LeastCommonAncesstor
+{
     // LCA in BST
-    TreeNode LCA(TreeNode root, int n1, int n2)
+    public TreeNode LCA(TreeNode root, int n1, int n2)
     {
         if(root == null) return null;
 
@@ -26,60 +26,46 @@ public class LEastCommonAncesstor {
 
     // LCA in Binary Tree
 
-    TreeNode LCAInBinaryTree(TreeNode root, int n1, int n2)
-    {
-        if(root == null) return null;
-
-        ArrayList<TreeNode> arr = new ArrayList<>();
-
-        arr.addAll(preparePathOfNode1(root, n1));
-        if(arr.size() == 0) return null;
-        return findParentByComparingN1Path(root, arr, n2, root);
+    public TreeNode LCAInBT(TreeNode root, int a, int b){
+        if(root==null) return null;
+        ArrayList<TreeNode> pathA = path(root, a);
+        ArrayList<TreeNode> pathB = path(root, b);
+        // printList(pathA);
+        // System.out.println();
+        // printList(pathB);
+        TreeNode lca = findLCA(pathA,pathB);
+        return lca;
     }
 
-    private TreeNode findParentByComparingN1Path(TreeNode root,ArrayList<TreeNode> arr, int n2, TreeNode last) {
-        if(root == null) return null;
-        if(arr.size()==0) return null;
-
-        if(root.data == n2) return last;
-
-        if(arr.contains(root)){
-            TreeNode left =  findParentByComparingN1Path(root.left,arr,n2,root);
-            if(left != null) return left;
-            return findParentByComparingN1Path(root.right,arr,n2,root);
+    private TreeNode findLCA(ArrayList<TreeNode> pathA, ArrayList<TreeNode> pathB) {
+        for(int i=0; i<pathA.size(); i++){
+            if(pathB.contains(pathA.get(i))){
+                return pathA.get(i);
+            }
         }
-        
-        return (checkNodeExist(root,n2))? last: null;
+        return null;
     }
 
-    private boolean checkNodeExist(TreeNode root, int n) {
-        if(root == null) return false;
-        if(root.data == n) return true;
-        return checkNodeExist(root.left,n) || checkNodeExist(root.right,n);
+    private ArrayList<TreeNode> path(TreeNode root, int a) {
+        ArrayList<TreeNode> al = new ArrayList<>();
+        if(root==null) return al;
+        if(root.data == a)
+        {
+            al.add(root);
+            return al;
+        }
+        al.addAll(path(root.left,a));
+        al.addAll(path(root.right,a));
+        if(al.size()>0) {
+            al.add(root);
+        }
+        return al;
     }
 
-    private ArrayList<TreeNode> preparePathOfNode1(TreeNode root, int n) {
-        ArrayList<TreeNode> arr = new ArrayList<>();
-
-        if(root == null) return null;
-       
-        if(root.data == n){
-            arr.add(root);
-            return arr;
+    void printList(ArrayList<TreeNode> al){
+        for(int i=0; i<al.size(); i++){
+            al.get(i).print();
         }
-        ArrayList<TreeNode> left = preparePathOfNode1(root.left, n);
-        ArrayList<TreeNode> right = preparePathOfNode1(root.right,n);
-
-        if(left.size() != 0){
-            arr.addAll(left);
-            arr.add(root);
-            return arr;
-        }
-        else{
-            arr.addAll(right);
-            arr.add(root);
-            return arr;
-        }
+        System.out.println();
     }
-
 }
