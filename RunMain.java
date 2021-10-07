@@ -13,8 +13,12 @@ public class RunMain
         root.right.left.right = new TreeNode(5);
         root.right.right = new TreeNode(6);
         root.right.left.right.left = new TreeNode(7);
-        LeastCommonAncesstor l = new LeastCommonAncesstor();
-        l.LCAInBT(root, 6, 7).print();
+        int target=4;
+        int k=2;
+        System.out.println(KDistanceNodes.KDistanceNodes1(root, target, k));
+
+        // LeastCommonAncesstor l = new LeastCommonAncesstor();
+        // l.LCAInBT(root, 6, 7).print();
         // int[][] grid = {{1,0,0},{1,1,0},{1,1,0}};
         // int[][] grid ={{2,1,1},{0,1,1},{1,0,1}};
         // int[][] grid = {{0,0,0},{1,1,0},{1,1,0}};
