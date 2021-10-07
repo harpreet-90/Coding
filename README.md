@@ -26,13 +26,13 @@ This section contains implementation of different Data Structures in Python.
 # Trees
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 0 | <b>All nodes at K distance Binray Tree</b> | [View](https://github.com/Pythonyte/lc/blob/master/all-nodes-distance-k-in-binary-tree.py)
+| 0 | <b>All nodes at K distance Binray Tree - done</b> | [View](https://github.com/Pythonyte/lc/blob/master/all-nodes-distance-k-in-binary-tree.py)
 | 1 | <b>BST Iterator</b> | [View](https://github.com/Pythonyte/lc/blob/master/binary-search-tree-iterator.py)
-| 2 | <b>Boundary of Binary Tree</b> | [View](https://github.com/Pythonyte/lc/blob/master/boundary-of-binary-tree.py)
-| 3 | <b>Distance between two nodes in binary tree</b> | [View](https://github.com/Pythonyte/lc/blob/master/find-distance-between-two-nodes-of-a-binary-tree.py)
-| 4 | <b>Inorder Successsor of Binary Tree</b> | [View](https://github.com/Pythonyte/lc/blob/master/inorder-successor-binary-tree.py)
-| 5 | <b>Inorder Successsor Predecessor of Binary Tree</b> | [View](https://github.com/Pythonyte/lc/blob/master/inorder-successor-predecssor-binary-tree.py)
-| 5 | <b>Invert Tree</b> | [View](https://github.com/Pythonyte/lc/blob/master/invertTreeRecursive.py)
+| 2 | <b>Boundary of Binary Tree - done</b> | [View](https://github.com/Pythonyte/lc/blob/master/boundary-of-binary-tree.py)
+| 3 | <b>Distance between two nodes in binary tree - done</b> | [View](https://github.com/Pythonyte/lc/blob/master/find-distance-between-two-nodes-of-a-binary-tree.py)
+| 4 | <b>Inorder Successsor of Binary Tree - done</b> | [View](https://github.com/Pythonyte/lc/blob/master/inorder-successor-binary-tree.py)
+| 5 | <b>Inorder Successsor Predecessor of Binary Tree - submission pending -- logic break done</b> | [View](https://github.com/Pythonyte/lc/blob/master/inorder-successor-predecssor-binary-tree.py)
+| 5 | <b>Invert Tree - done</b> | [View](https://github.com/Pythonyte/lc/blob/master/invertTreeRecursive.py)
 | 6 | <b>Largest BST in binary tree</b> | [View](https://github.com/Pythonyte/lc/blob/master/largestBSTSubtree.py)
 | 7 | <b>Recover Binary Tree</b> | [View](https://github.com/Pythonyte/lc/blob/master/recoverTree.py)
 | 8 | <b>Spiral Order of binary tree - done</b> | [View](https://github.com/Pythonyte/lc/blob/master/spiral_order_binary_tree.py)

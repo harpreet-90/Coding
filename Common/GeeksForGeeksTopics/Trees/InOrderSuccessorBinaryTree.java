@@ -3,7 +3,7 @@ package Trees;
 public class InOrderSuccessorBinaryTree {
     TreeNode last;
     TreeNode successor;
-    public TreeNode inorderSuccessor(TreeNode root,Node x)
+    public TreeNode inorderSuccessor(TreeNode root,TreeNode x)
     {
         successor = last = null;
         helper(root,x);
