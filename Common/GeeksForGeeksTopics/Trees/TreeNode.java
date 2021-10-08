@@ -20,7 +20,6 @@ public class TreeNode implements Comparator<TreeNode> {
 
     @Override
     public int compare(TreeNode o1, TreeNode o2) {
-        
         return o1.data - o2.data;
     }
 }
