@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class IsBST {
     //Time complexity: O(N)
     // extra Space: O(1) or O(3)exact;
-    boolean isBST(TreeNode root){
+    public boolean isBST(TreeNode root){
         ArrayList<Integer> arr = IsBSTInternalFunc(root);
         return (arr.get(2)==1)? true: false;
     }
