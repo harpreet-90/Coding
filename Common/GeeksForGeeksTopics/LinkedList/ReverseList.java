@@ -1,4 +1,5 @@
 package LinkedList;
+// https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1
 class ReverseList {
     Node reverseList(Node head)
     {

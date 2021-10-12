@@ -1,30 +1,34 @@
 
-import LinkedList.InsertInSortedCircularLinkedList;
+import LinkedList.CheckPalindrome;
 import LinkedList.Node;
 import LinkedList.PrintList;
-import Trees.*;
+// import Trees.*;
 
 public class RunMain
 {
 
-    public static void main(String args[]){
+    public static void main(String args[])
+    {
         Node head = new Node(1);
         head.next = new Node(2);
         head.next.next = new Node(3);
-        head.next.next.next = new Node(4);
-        head.next.next.next.next = new Node(5);
-        head.next.next.next.next.next = new Node(7);
-        head.next.next.next.next.next.next = head;
+        head.next.next.next = new Node(1);
+        // head.next.next.next.next = new Node(3);
+        // head.next.next.next.next.next = new Node(1);
+        // head.next.next.next.next.next.next = head;
         PrintList p = new PrintList();
         p.print(head);
-        head = InsertInSortedCircularLinkedList.sortedInsert(head, 6);
-        p.print(head);
-        head = InsertInSortedCircularLinkedList.sortedInsert(head, 6);
-        p.print(head);
-        head = InsertInSortedCircularLinkedList.sortedInsert(head, 8);
-        p.print(head);
-        head = InsertInSortedCircularLinkedList.sortedInsert(head, 0);
-        p.print(head);
+        CheckPalindrome cp = new CheckPalindrome();
+        System.out.println(cp.isPalindrome(head));
+        
+        // head = InsertInSortedCircularLinkedList.sortedInsert(head, 6);
+        // p.print(head);
+        // head = InsertInSortedCircularLinkedList.sortedInsert(head, 6);
+        // p.print(head);
+        // head = InsertInSortedCircularLinkedList.sortedInsert(head, 8);
+        // p.print(head);
+        // head = InsertInSortedCircularLinkedList.sortedInsert(head, 0);
+        // p.print(head);
         // TreeNode root = new TreeNode(1);
         // root.left = new TreeNode(2);
         // root.right = new TreeNode(3);
