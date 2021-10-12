@@ -2,9 +2,13 @@ package LinkedList;
 
 public class PrintList {
     public void print(Node head){
-        while(head!=null){
-            System.out.print(head.value + "->");
-            head = head.next;
+        if(head == null) System.out.print("null");
+        Node node = head;
+        System.out.print(node.value + "->");
+        node = head.next;
+        while(node!=null && head!=node){
+            System.out.print(node.value + "->");
+            node = node.next;
         }
         System.out.println("null");
     }
