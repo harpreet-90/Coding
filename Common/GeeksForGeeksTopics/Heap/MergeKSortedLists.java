@@ -1,24 +1,8 @@
 package Heap;
 
-import java.util.Comparator;
 import java.util.PriorityQueue;
-import java.util.TreeMap;
 
 import LinkedList.Node;
-class NodeComparator implements Comparable<Node>{
-
-    @Override
-    public int compare(Node o1, Node o2) {
-        return o1.value - o2.value;
-    }
-
-    @Override
-    public int compareTo(Node o) {
-        // TODO Auto-generated method stub
-        return this.nod;
-    }
-    
-}
 
 class NodeIndexPair implements Comparable<NodeIndexPair>{
     Node node = null;
@@ -36,7 +20,6 @@ class NodeIndexPair implements Comparable<NodeIndexPair>{
 
     @Override
     public int compareTo(NodeIndexPair o) {
-        // TODO Auto-generated method stub
         return this.node.value - o.node.value;
     }
 } 

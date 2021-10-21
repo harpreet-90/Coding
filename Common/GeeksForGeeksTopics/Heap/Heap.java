@@ -1,14 +1,16 @@
 package Heap;
 import java.util.Arrays;
 
-class HeadNode 
+class HeapNode 
 {
-	public HeadNode(int i) {
+	public HeapNode(int i) {
     }
     int val;
-	HeadNode left;
-	HeadNode right;
+	HeapNode left;
+	HeapNode right;
 }
+
+
 
 class Heap
 {
@@ -140,6 +142,17 @@ class Heap
 	int max()
 	{
 		return (this.size == -1)? INT_MAX : heap[0];
+	}
+
+	void maxHeapSort(int i){
+		if(heap[2*i+1] > heap[i]){
+			swapValues((2 * i) + 1, i);
+			maxHeapSort((2 * i) + 1);
+		}
+		if(heap[(2 *i) + 2] > heap[i]){
+			swapValues((2 *i) + 2, i);
+			maxHeapSort((2 *i) + 2);
+		}
 	}
 	
 }
