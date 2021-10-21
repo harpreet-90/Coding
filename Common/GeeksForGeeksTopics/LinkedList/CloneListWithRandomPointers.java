@@ -39,18 +39,18 @@ public class CloneListWithRandomPointers {
         return p;
     }
     // it will distort original list and recreate only new list
-    private Node recreateNewList(Node head) {
-        Node newHead = head.next;
-        Node current = head.next;
-        Node trav = current.next.next;
-        while(trav!=null){
-            current.next = trav;
-            current = current.next;
-            trav = trav.next.next;
-        }
+    // private Node recreateNewList2(Node head) {
+    //     Node newHead = head.next;
+    //     Node current = head.next;
+    //     Node trav = current.next.next;
+    //     while(trav!=null){
+    //         current.next = trav;
+    //         current = current.next;
+    //         trav = trav.next.next;
+    //     }
 
-        return newHead;
-    }
+    //     return newHead;
+    // }
 
     private void updateRandomPointers(Node head) {
         Node current = head.next;
