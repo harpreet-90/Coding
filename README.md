@@ -6,6 +6,7 @@
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 1 | [Count Triplets](https://practice.geeksforgeeks.org/problems/count-the-triplets4615/1)| [View](G4G/CountTriplets.java) |
+| 2 | [Is List Palindrome](https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1) | [View](G4G/IsListPalindrome.java) |
 <br/>
 [GeeksForGeeks Profile](https://auth.geeksforgeeks.org/user/hkcomputers/practice)
 
