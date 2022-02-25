@@ -2,6 +2,10 @@
 # Coding Practice
 ## Links:
 [Leetcode Profile](https://leetcode.com/harpreeter90/)
+<br/>
+| # | Problem   | Description |---|
+| 1 | [Count Triplets](https://practice.geeksforgeeks.org/problems/count-the-triplets4615/1)|[View](G4G/CountTriplets.java)|
+<br/>
 [GeeksForGeeks Profile](https://auth.geeksforgeeks.org/user/hkcomputers/practice)
 
 # Pending Problems
