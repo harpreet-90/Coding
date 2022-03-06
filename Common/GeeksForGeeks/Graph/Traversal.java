@@ -3,7 +3,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Stack;
 
 // https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1#
 public class Traversal {
