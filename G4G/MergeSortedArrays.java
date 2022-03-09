@@ -1,3 +1,4 @@
+package G4G;
 public class MergeSortedArrays {
     //Complexity O(n*m)
     public void mergeSortedArraysWithoutExtraSpace(long arr1[], long arr2[], int n, int m) 

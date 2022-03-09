@@ -1,3 +1,4 @@
+package G4G;
 public class KadanesAlgorithm {
     long maxSubarraySum(int arr[], int n){
         
