@@ -1,4 +1,4 @@
-package TopicWise.LinkedList;
+package LinkedList;
 // https://practice.geeksforgeeks.org/problems/delete-without-head-pointer/1
 public class DeleteNodeWithoutHeadPointer {
     void deleteNode(Node del)

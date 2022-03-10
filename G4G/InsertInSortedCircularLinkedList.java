@@ -1,4 +1,4 @@
-package TopicWise.LinkedList;
+package LinkedList;
 // https://practice.geeksforgeeks.org/problems/sorted-insert-for-circular-linked-list/1#
 // asked in 1st round of microsoft's interview(first time)
 public class InsertInSortedCircularLinkedList {

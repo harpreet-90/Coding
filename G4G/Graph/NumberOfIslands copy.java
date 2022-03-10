@@ -1,13 +1,5 @@
 // https://leetcode.com/problems/number-of-islands/submissions/
-<<<<<<< HEAD
-package G4G.Graph;
-=======
-<<<<<<<< HEAD:TopicWise/Graph/NumberOfIslands.java
-package TopicWise.Graph;
-========
-package G4G.Graph;
->>>>>>>> db999fe0da6d586f94b2bca1fbd2af5f1c374f74:G4G/Graph/NumberOfIslands.java
->>>>>>> db999fe0da6d586f94b2bca1fbd2af5f1c374f74
+package Graph;
 
 public class NumberOfIslands {
     public int numIslands(char[][] grid) {
