@@ -1,4 +1,4 @@
-package LinkedList;
+package G4G.LinkedList;
 // https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1#
 public class AddTwoNumbers {
     static Node addTwoLists(Node first, Node second){

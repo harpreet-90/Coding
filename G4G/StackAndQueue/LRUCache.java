@@ -1,7 +1,7 @@
-package StackAndQueue;
+package G4G.StackAndQueue;
 
 import java.util.*;
-import LinkedList.Node;
+import G4G.LinkedList.Node;
 
 public class LRUCache
 {

@@ -1,4 +1,4 @@
-package Trees;
+package G4G.Trees;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

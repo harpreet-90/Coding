@@ -1,4 +1,4 @@
-package LinkedList;
+package G4G.LinkedList;
 // https://leetcode.com/problems/swap-nodes-in-pairs/submissions/
 // https://leetcode.com/problems/reverse-nodes-in-k-group/submissions/
 public class RotateKNodeInList {

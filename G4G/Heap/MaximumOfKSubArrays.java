@@ -1,4 +1,4 @@
-package Heap;
+package G4G.Heap;
 // https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1
 import java.util.ArrayList;
 import java.util.Collections;

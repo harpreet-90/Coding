@@ -1,4 +1,4 @@
-package LinkedList;
+package TopicWise.LinkedList;
 
 public class PrintList {
     public void print(Node head){

@@ -1,4 +1,4 @@
-package StackAndQueue;
+package G4G.StackAndQueue;
 
 public class IndexPair {
     public int i;

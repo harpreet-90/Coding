@@ -1,4 +1,5 @@
-import LinkedList.*;
+import TopicWise.LinkedList.NodeWithchild;
+
 public class FlatteningDoublyLinkedList {
 
     public NodeWithchild flatten(NodeWithchild root)

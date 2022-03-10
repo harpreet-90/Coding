@@ -1,4 +1,4 @@
-package LinkedList;
+package G4G.LinkedList;
 
 public class Node {
     public int value;

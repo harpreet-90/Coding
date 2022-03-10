@@ -1,4 +1,4 @@
-package LinkedList;
+package TopicWise.LinkedList;
 
 public class LegnthOfList {
     public  static int find(Node head){

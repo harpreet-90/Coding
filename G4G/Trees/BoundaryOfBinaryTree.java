@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/boundary-of-binary-tree/description/
-package Trees;
+package G4G.Trees;
 
 import java.util.*;
 

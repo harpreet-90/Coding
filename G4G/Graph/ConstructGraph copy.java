@@ -1,4 +1,4 @@
-package Graph;
+package TopicWise.Graph;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -21,6 +21,7 @@ public class ConstructGraph {
             int v2 = sc.nextInt();
             addEdge(v1, v2);
         }
+        sc.close();
         return graph;
     }
 

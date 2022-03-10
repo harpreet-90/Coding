@@ -1,4 +1,4 @@
-package Heap;
+package G4G.Heap;
 import java.util.Arrays;
 
 class HeapNode 

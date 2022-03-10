@@ -1,4 +1,4 @@
-package LinkedList;
+package TopicWise.LinkedList;
 
 import java.util.*;
 // https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1

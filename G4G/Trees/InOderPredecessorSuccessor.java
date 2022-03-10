@@ -1,4 +1,4 @@
-package Trees;
+package G4G.Trees;
 
 public class InOderPredecessorSuccessor {
     TreeNode last, successor, predecessor;

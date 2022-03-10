@@ -1,4 +1,4 @@
-package Trees;
+package G4G.Trees;
 
 public class MirrorOfTree {
     void mirror(TreeNode node) {

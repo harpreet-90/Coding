@@ -1,4 +1,4 @@
-package LinkedList;
+package G4G.LinkedList;
 // https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1#
 public class CheckPalindrome {
     public boolean isPalindrome(Node head) 

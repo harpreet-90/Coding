@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 package G4G.Graph;
+=======
+<<<<<<<< HEAD:TopicWise/Graph/IsCycle.java
+package TopicWise.Graph;
+========
+package G4G.Graph;
+>>>>>>>> db999fe0da6d586f94b2bca1fbd2af5f1c374f74:G4G/Graph/IsCycle.java
+>>>>>>> db999fe0da6d586f94b2bca1fbd2af5f1c374f74
 
 import java.util.ArrayList;
 import java.util.Iterator;

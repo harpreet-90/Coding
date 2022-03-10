@@ -2,7 +2,7 @@ package G4G;
 
 import java.util.PriorityQueue;
 
-import LinkedList.Node;
+import TopicWise.LinkedList.Node;
 
 class NodeIndexPair implements Comparable<NodeIndexPair>{
     Node node = null;

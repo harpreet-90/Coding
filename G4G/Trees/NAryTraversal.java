@@ -1,4 +1,4 @@
-package Trees;
+package G4G.Trees;
 
 import java.util.*;
 //https://leetcode.com/problems/n-ary-tree-preorder-traversal/submissions/

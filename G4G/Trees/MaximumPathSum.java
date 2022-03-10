@@ -1,4 +1,4 @@
-package Trees;
+package G4G.Trees;
 
 
 // https://leetcode.com/problems/binary-tree-maximum-path-sum/

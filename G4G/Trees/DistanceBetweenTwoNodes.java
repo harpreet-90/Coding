@@ -1,6 +1,6 @@
 // https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1
 
-package Trees;
+package G4G.Trees;
 
 public class DistanceBetweenTwoNodes {
     int findDist(TreeNode root, int a, int b) {

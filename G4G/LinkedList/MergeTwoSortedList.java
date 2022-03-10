@@ -1,4 +1,4 @@
-package LinkedList;
+package G4G.LinkedList;
 
 public class MergeTwoSortedList {
     public Node sortedMerge(Node head1, Node head2) {

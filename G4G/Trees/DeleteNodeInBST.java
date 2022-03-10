@@ -1,4 +1,4 @@
-package Trees;
+package G4G.Trees;
 // https://leetcode.com/problems/delete-node-in-a-bst/description/
 public class DeleteNodeInBST {
     public TreeNode deleteNode(TreeNode root, int key) {

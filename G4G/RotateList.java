@@ -1,4 +1,4 @@
-package LinkedList;
+package TopicWise.LinkedList;
 
 public class RotateList {
     public Node rotate(Node head, int k) {

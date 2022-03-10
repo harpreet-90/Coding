@@ -1,5 +1,5 @@
 // https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1
-package Trees;
+package G4G.Trees;
 
 import java.util.*;
 

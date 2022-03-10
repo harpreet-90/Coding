@@ -1,4 +1,4 @@
-package Sorting;
+package G4G.Sorting;
 // https://practice.geeksforgeeks.org/problems/wave-array-1587115621/1#
 public class waveArray {
     public static void convertToWave(int arr[], int n){

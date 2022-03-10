@@ -1,4 +1,4 @@
-package LinkedList;
+package TopicWise.LinkedList;
 
 
 public class FlattenList {

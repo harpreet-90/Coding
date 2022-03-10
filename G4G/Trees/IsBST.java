@@ -1,4 +1,4 @@
-package Trees;
+package G4G.Trees;
 
 import java.util.ArrayList;
 // Another way to solve : use Inorder travaersal and save the values in array.

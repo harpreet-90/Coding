@@ -1,4 +1,4 @@
-package StackAndQueue;
+package G4G.StackAndQueue;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,8 +1,8 @@
-package Heap;
+package G4G.Heap;
 
 import java.util.PriorityQueue;
 
-import LinkedList.Node;
+import G4G.LinkedList.Node;
 
 class NodeIndexPair implements Comparable<NodeIndexPair>{
     Node node = null;

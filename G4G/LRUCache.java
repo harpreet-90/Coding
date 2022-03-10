@@ -1,7 +1,7 @@
 package G4G;
 
 import java.util.*;
-import LinkedList.Node;
+import TopicWise.LinkedList.Node;
 
 public class LRUCache
 {

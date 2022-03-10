@@ -1,7 +1,7 @@
 package G4G.Graph;
 import java.util.*;
 
-import StackAndQueue.*;
+import G4G.StackAndQueue.IndexPair;
 public class CovidSpread {
     public int helpaterp(int[][] grid)
     {

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch GFGMain",
+            "request": "launch",
+            "mainClass": "G4G.GFGMain",
+            "projectName": "g4g_408dd950"
+        },
+        {
+            "type": "java",
+            "name": "Launch WordBreakDP",
+            "request": "launch",
+            "mainClass": "G4G.DP.WordBreakDP",
+            "projectName": "g4g_408dd950"
+        },
+        {
+            "type": "java",
             "name": "Launch RunMain",
             "request": "launch",
             "mainClass": "RunMain",
