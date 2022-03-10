@@ -1,4 +1,4 @@
-package LinkedList;
+package TopicWise.LinkedList;
 // https://leetcode.com/problems/copy-list-with-random-pointer/submissions/
 public class CloneListWithRandomPointers {
     public Node copyRandomList(Node head) {

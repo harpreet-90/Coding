@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/number-of-islands/submissions/
-package Graph;
+package TopicWise.Graph;
 
 public class NumberOfIslands {
     public int numIslands(char[][] grid) {

@@ -1,8 +1,8 @@
-package Heap;
+package TopicWise.Heap;
 
 import java.util.PriorityQueue;
 
-import LinkedList.Node;
+import TopicWise.LinkedList.Node;
 
 class NodeIndexPair implements Comparable<NodeIndexPair>{
     Node node = null;

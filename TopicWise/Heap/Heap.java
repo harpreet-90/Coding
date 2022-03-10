@@ -1,4 +1,4 @@
-package Heap;
+package TopicWise.Heap;
 import java.util.Arrays;
 
 class HeapNode 

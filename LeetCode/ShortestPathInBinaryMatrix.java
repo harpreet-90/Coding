@@ -1,6 +1,6 @@
 import java.util.*;
 
-import StackAndQueue.IndexPair;
+import TopicWise.StackAndQueue.IndexPair;
 
 class ShortestPathInBinaryMatrix{
     public int shortestPathBinaryMatrix(int[][] grid) {

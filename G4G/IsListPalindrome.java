@@ -1,7 +1,5 @@
 // https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1
 package G4G;
-
-
 import java.util.*;
 
 class Node

@@ -1,4 +1,4 @@
-package StackAndQueue;
+package TopicWise.StackAndQueue;
 
 public class IndexPair {
     public int i;

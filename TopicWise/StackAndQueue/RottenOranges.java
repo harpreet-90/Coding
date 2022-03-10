@@ -1,4 +1,4 @@
-package StackAndQueue;
+package TopicWise.StackAndQueue;
 
 import java.util.LinkedList;
 import java.util.Queue;

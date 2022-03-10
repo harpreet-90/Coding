@@ -1,4 +1,4 @@
-package Graph;
+package TopicWise.Graph;
 
 import java.util.ArrayList;
 import java.util.Iterator;

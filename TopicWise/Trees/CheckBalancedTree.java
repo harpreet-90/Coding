@@ -1,4 +1,4 @@
-package Trees;
+package TopicWise.Trees;
 
 public class CheckBalancedTree {
     public boolean isBalanced(TreeNode root)

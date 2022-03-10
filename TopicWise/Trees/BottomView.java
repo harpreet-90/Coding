@@ -1,4 +1,4 @@
-package Trees;
+package TopicWise.Trees;
 
 import java.util.ArrayList;
 import java.util.Map;

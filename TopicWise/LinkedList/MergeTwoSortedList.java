@@ -1,4 +1,4 @@
-package LinkedList;
+package TopicWise.LinkedList;
 
 public class MergeTwoSortedList {
     public Node sortedMerge(Node head1, Node head2) {
