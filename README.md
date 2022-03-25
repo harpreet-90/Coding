@@ -84,6 +84,14 @@
 <br/>
 
 [Leetcode Profile](https://leetcode.com/harpreeter90/)
+
+# LeetCode Problems
+| # | Problem   | Description |
+|---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| 1 | <b>CountAndSay</b>   |  [View](LeetCode/ReAttempt/CountAndSay.java)
+| 2 | <b>Maximum SubArray</b>   |  [View](LeetCode/ReAttempt/MaximumSubArray.java)
+| 2 | <b>Two Sum</b>   |  [View](LeetCode/ReAttempt/TwoSum.java)
+
 # Pending Problems
 
 # Things to remember
@@ -199,12 +207,13 @@ This repository is a collection of algorithms, data structures and coding challe
 | 1 | <b>LIS</b>   |  [View](G4G/DP/LongestIncreasingSequence.java)
 | 2 | <b>LCS</b>   |  [View](G4G/DP/LongestCommonSubsequence.java)
 | 3 | <b>Coin change ways</b>   |  [View](G4G/DP/CoinChangeWays.java)
-| 3 | <b>Count no. of Hops</b>   |  [View](G4G/DP/CountWays.java)
-| 3 | <b>Egg Drop Problem</b>   |  [View](G4G/DP/EggDropProblem.java)
-| 3 | <b>Cutting rod</b>   |  [View](G4G/DP/CuttingRod.java)
-| 3 | <b>Word break</b>   |  [View](G4G/DP/WordBreakDP.java)
-| 3 | <b>Longest path in a matrix</b>   |  [View](G4G/DP/LongestPathInMatrix.java)
-| 3 | <b>Edit Distance</b>   |  [View](G4G/DP/EditDistance.java)
+| 4 | <b>Count no. of Hops</b>   |  [View](G4G/DP/CountWays.java)
+| 5 | <b>Egg Drop Problem</b>   |  [View](G4G/DP/EggDropProblem.java)
+| 6 | <b>Cutting rod</b>   |  [View](G4G/DP/CuttingRod.java)
+| 7 | <b>Word break</b>   |  [View](G4G/DP/WordBreakDP.java)
+| 8 | <b>Longest path in a matrix</b>   |  [View](G4G/DP/LongestPathInMatrix.java)
+| 9 | <b>Edit Distance</b>   |  [View](G4G/DP/EditDistance.java)
+| 10 | <b>Given sum of a subset</b>   |  [View](G4G/DP/SubsetSumProblem.java)
 
 # Graph
 | # | Problem   | Description |
@@ -212,46 +221,9 @@ This repository is a collection of algorithms, data structures and coding challe
 | 1 | <b>BFS</b>   |  [View]()
 | 2 | <b>DFS</b>   |  [View]()
 | 3 | <b>detect-cycle-in-an-undirected-graph</b>   |  [View]()
-| 3 | <b>detect-cycle-in-an-directed-graph</b>   |  [View]()
+| 3 | <b>detect-cycle-in-an-directed-graph</b>   |  [View](G4G/Graph/IsCycle.java)
 | 4 | <b>surrounded region</b>   |  [View]()
 | 5 | <b>Number of islands</b>   |  [View]()
 | 6 | <b>numDistinctIslands.py</b>   |  [View]()
 | 7 | <b>topological_sorting.py</b>   |  [View]()
 | 8 | <b>detect-cycles in a 2d grid</b>   |  [View]()
-| 9 | <b>course_schedule_possible</b>   |  [View]()
-| 10 | <b>kill_process</b>   |  [View]()
-
-# Math Tricks
-| # | Problem   | Description |
-|---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 0 | <b>divide two integers without using multiplication, division and mod operator.</b>   |  [View]()
-| 1 | <b>Validate IP Adress V4 V6</b>   |  [View]()
-| 2 | <b>Task Scheduler</b>   |  [View]()
-
-
-# Sorting Algorithms
-| # | Problem   | Description |
-|---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 0 | <b>Merge Sort</b>   |  [View]()
-| 1 | <b>Quick Sort</b>   |  [View]()
-| 2 | <b>Heap Sort</b>   |  [View]()
-| 3 | <b>External Merge Sort</b>   |  [View]()
-| 4 | <b>Topological Sort</b>   |  [View]()
-
-# Design Problems
-
-| # | Problem   | Description |
-|---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 0 | <b>Parking Lot</b>   |  [View]()
-| 1 | <b>LRU Cache</b>   |  [View]()
-| 2 | <b>DataStructure for add and search</b>   |  [View]()
-| 3 | <b>Compressed String Iterator</b>   |  [View]()
-| 4 | <b>DataStructure for Insert Delete GetRandom O(1.py)</b>   |  [View]()
-| 5 | <b>Stack that supports getMin: O(1) time/space</b>   |  [View]()
-| 6 | <b>Skip List Insert/Erase/Search </b>   |  [View]()
-| 7 | <b>Design-Tic-Tac-Toe</b>   |  [View]()
-| 8 | <b>Design-Snake-Game</b>   |  [View]()
-| 9 | <b>Design-Trie</b>   |  [View]()
-| 10 | <b>Design-AutoSuggest</b>   |  [View]()
-| 11 | <b>Design-Snake-Game</b>   |  [View]()
-| 12 | <b>Design HashMap</b>   |  [View]()
