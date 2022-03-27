@@ -90,7 +90,11 @@
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 1 | <b>CountAndSay</b>   |  [View](LeetCode/ReAttempt/CountAndSay.java)
 | 2 | <b>Maximum SubArray</b>   |  [View](LeetCode/ReAttempt/MaximumSubArray.java)
-| 2 | <b>Two Sum</b>   |  [View](LeetCode/ReAttempt/TwoSum.java)
+| 3 | <b>Two Sum</b>   |  [View](LeetCode/ReAttempt/TwoSum.java)
+| 4 | <b>Merge Intervals</b>   |  [View](LeetCode/ReAttempt/MergeIntervals.java)
+| 5 | <b>Permutations</b>   |  [View](LeetCode/ReAttempt/Permutations.java)
+| 5 | <b>Power of X</b>   |  [View](LeetCode/ReAttempt/PowerOfX.java)
+| 5 | <b>Unique paths in a grid</b>   |  [View](LeetCode/ReAttempt/UniquePaths.java)
 
 # Pending Problems
 

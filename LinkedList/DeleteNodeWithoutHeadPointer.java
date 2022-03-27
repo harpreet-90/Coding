@@ -1,4 +1,7 @@
 package LinkedList;
+
+import G4G.LinkedList.Node;
+
 // https://practice.geeksforgeeks.org/problems/delete-without-head-pointer/1
 public class DeleteNodeWithoutHeadPointer {
     void deleteNode(Node del)
